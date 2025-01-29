@@ -15,5 +15,5 @@ Welcome to my personal portfolio! This repository showcases my web development p
 1. Clone the repository:
 > git clone https://github.com/ashevkar/portfolio.git
 2. Navigate to the project directory:
-> cd portfolio
+> cd Lab1
 3. Open the index.html file in your browser to view the portfolio.
