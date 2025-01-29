@@ -16,14 +16,14 @@
       }
     </style>
   </head>
-  <body class=" font-poppins min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white ">
+  <body class=" font-poppins  bg-black text-white ">
     <!-- Hero Section -->
-    <header class="container mx-auto px-6 py-16 md:py-32">
-        <video autoplay muted loop class="absolute top-0  left-0 w-full h-full object-cover">
-            <source src="./1010.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-      <div class="flex flex-col md:flex-row items-center gap-12">
+    <header class="container mx-auto px-6 py-16 md:py-32 relative text-center md:text-left  ">
+      <video autoplay muted loop class="absolute top-0 left-0 w-full h-full  object-cover opacity-20">
+        <source src="./abc.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="flex flex-col md:flex-row items-center gap-12 ">
         <div class="md:w-1/2 space-y-6 animate-fade-in">
           <h1 class="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-white">
             AISHWARYA SHEVKAR
@@ -67,9 +67,9 @@
     </header>
 
     <!-- Education Section -->
-    <section class="bg-gray-800/50 py-20 ">
+    <section class="bg-black-800/50 py-20 ">
       <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold mb-12 mt-40 text-center uppercase">Education</h2>
+        <h2 class="text-3xl font-bold mb-12  text-center uppercase">Education</h2>
         <div class="grid md:grid-cols-2 gap-8">
           <div class="p-6 bg-gray-700/50 rounded-xl">
             <h3 class="font-semibold text-xl mb-2">Illinois Institute of Technology</h3>
@@ -132,7 +132,7 @@
     </section>
 
     <!-- Skills Section -->
-    <section class="bg-gray-800/50 py-20">
+    <section class="bg-black-800/50 py-20">
       <div class="container mx-auto px-6">
         <h2 class="text-3xl font-bold mb-12 text-center uppercase">Skills & Technologies</h2>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -212,6 +212,38 @@
         </div>
       </div>
     </section>
+
+<!-- Achievements Section -->
+<section class="py-20 bg-black-900">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-12 text-center uppercase">Achievements</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
+      
+      <!-- Projects -->
+      <div class="p-6 bg-gray-800 rounded-xl shadow-lg flex flex-col items-center">
+        <i data-lucide="briefcase" class="w-10 h-10 text-blue-400"></i>
+        <h3 class="text-2xl font-bold mt-4">5+</h3>
+        <p class="text-gray-400">Projects</p>
+      </div>
+
+      <!-- Leetcode Problems Solved -->
+      <div class="p-6 bg-gray-800 rounded-xl shadow-lg flex flex-col items-center">
+        <i data-lucide="code" class="w-10 h-10 text-yellow-400"></i>
+        <h3 class="text-2xl font-bold mt-4">101+</h3>
+        <p class="text-gray-400">Leetcode Problems</p>
+      </div>
+
+      <!-- Coffee Cups -->
+      <div class="p-6 bg-gray-800 rounded-xl shadow-lg flex flex-col items-center">
+        <i data-lucide="coffee" class="w-10 h-10 text-red-400"></i>
+        <h3 class="text-2xl font-bold mt-4">3000+</h3>
+        <p class="text-gray-400">Coffee Cups</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
     <!-- Footer -->
     <footer class="bg-gray-900 py-12">
