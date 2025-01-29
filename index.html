@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aishwarya Shevkar - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .animate-fade-in {
+        animation: fadeIn 0.6s ease-out forwards;
+      }
+    </style>
+  </head>
+  <body class=" font-poppins min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white ">
+    <!-- Hero Section -->
+    <header class="container mx-auto px-6 py-16 md:py-32">
+        <video autoplay muted loop class="absolute top-0  left-0 w-full h-full object-cover">
+            <source src="./1010.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <div class="md:w-1/2 space-y-6 animate-fade-in">
+          <h1 class="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-white">
+            AISHWARYA SHEVKAR
+          </h1>
+          <h2 class="text-2xl md:text-3xl text-white-300">
+            Software Developer
+          </h2>
+          <p class="text-lg text-gray-400 leading-relaxed">
+            Chicago-based software developer pursuing Master's in Information Technology and Management at Illinois Institute of Technology. Experienced in full-stack development, cloud technologies, and software testing.
+          </p>
+          <div class="flex gap-4">
+            <a href="mailto:ashevkar@hawk.iit.edu" class="px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg flex items-center gap-2 transition-colors">
+              <i data-lucide="mail" class="w-5 h-5"></i>
+              Contact Me
+            </a>
+            <a href="https://drive.google.com/file/d/1zbtidkmVH6lE0YpBKAfMoplPt2sLrr36/view?usp=sharing" class="px-6 py-3 bg-gray-700 hover:bg-gray-600 rounded-lg flex items-center gap-2 transition-colors">
+              <i data-lucide="download" class="w-5 h-5"></i>
+              Resume
+            </a>
+          </div>
+          <div class="text-gray-400">
+            <p><i data-lucide="map-pin" class="w-4 h-4 inline mr-2"></i>Chicago, IL</p>
+            <p><i data-lucide="phone" class="w-4 h-4 inline mr-2"></i>(872) 664-2261</p>
+          </div>
+        </div>
+        <div class="md:w-1/2 animate-fade-in" style="animation-delay: 0.2s;">
+          <div class="relative">
+            <div class="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden ring-4 ring-blue-500/30">
+              <img 
+                src="./image.jpeg"
+                alt="Professional Woman"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="absolute -bottom-4 -right-4 bg-blue-500 rounded-full p-4">
+              <code class="text-sm font-mono">{ developer }</code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Education Section -->
+    <section class="bg-gray-800/50 py-20 ">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-12 mt-40 text-center uppercase">Education</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="p-6 bg-gray-700/50 rounded-xl">
+            <h3 class="font-semibold text-xl mb-2">Illinois Institute of Technology</h3>
+            <p class="text-blue-400">Master of Information Technology and Management</p>
+            <p class="text-gray-400">Expected May 2025 | GPA: 3.77</p>
+            <p class="text-sm text-gray-400 mt-4">Key Courses: Advanced Software Engineering, Data Structures and Algorithms, Web Application Development, Cloud Computing and DevOps</p>
+          </div>
+          <div class="p-6 bg-gray-700/50 rounded-xl">
+            <h3 class="font-semibold text-xl mb-2">University of Pune</h3>
+            <p class="text-blue-400">Bachelor of Engineering in Information Technology</p>
+            <p class="text-gray-400">June 2016 - April 2020</p>
+            <p class="text-sm text-gray-400 mt-4">Key Courses: C, Data Structures, Java, Software Modeling, Data Analytics, Database Management</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section class="py-20">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-12 text-center uppercase">Work Experience</h2>
+        <div class="space-y-8">
+          <!-- Software Developer Role -->
+          <div class="p-6 bg-gray-700/50 rounded-xl">
+            <div class="flex flex-col md:flex-row justify-between mb-4">
+              <div>
+                <h3 class="text-xl font-bold text-blue-400">Software Developer</h3>
+                <p class="text-gray-300">Anikaay Integration, India</p>
+              </div>
+              <p class="text-gray-400">Mar 2022 – Jun 2023</p>
+            </div>
+            <ul class="list-disc list-inside text-gray-300 space-y-2">
+              <li>Developed and maintained dynamic web applications using React.js, Node.js, and Redux, ensuring high performance and seamless user experience</li>
+              <li>Integrated third-party APIs and optimized frontend performance with lazy loading and code splitting, achieving 15% faster load time</li>
+              <li>Led feature implementation using MongoDB, Express.js, and RESTful APIs, enhancing user engagement</li>
+              <li>Collaborated with cross-functional teams using JIRA for tracking and Git for version control</li>
+              <li>Utilized Docker for streamlined CI/CD and deployment processes</li>
+            </ul>
+          </div>
+
+          <!-- Test Engineer Role -->
+          <div class="p-6 bg-gray-700/50 rounded-xl">
+            <div class="flex flex-col md:flex-row justify-between mb-4">
+              <div>
+                <h3 class="text-xl font-bold text-blue-400">Test Engineer</h3>
+                <p class="text-gray-300">GlobalStep, India</p>
+              </div>
+              <p class="text-gray-400">Aug 2020 – Mar 2022</p>
+            </div>
+            <ul class="list-disc list-inside text-gray-300 space-y-2">
+              <li>Conducted exploratory testing to identify defects and ensure comprehensive coverage</li>
+              <li>Utilized JIRA for bug tracking and defect management</li>
+              <li>Collaborated with developers to optimize test plans and improve resolution processes</li>
+              <li>Performed compatibility and performance testing across different platforms</li>
+              <li>Reviewed design specifications to ensure clarity and testability</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="bg-gray-800/50 py-20">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-12 text-center uppercase">Skills & Technologies</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div class="p-6 bg-gray-700/50 rounded-xl hover:bg-gray-700 transition-colors">
+            <h3 class="font-semibold mb-2">Languages</h3>
+            <p class="text-sm text-gray-400">Java, C, HTML, CSS, JavaScript, React.js</p>
+          </div>
+          <div class="p-6 bg-gray-700/50 rounded-xl hover:bg-gray-700 transition-colors">
+            <h3 class="font-semibold mb-2">Cloud & Databases</h3>
+            <p class="text-sm text-gray-400">AWS, Azure, GCP, MySQL, MongoDB, Oracle</p>
+          </div>
+          <div class="p-6 bg-gray-700/50 rounded-xl hover:bg-gray-700 transition-colors">
+            <h3 class="font-semibold mb-2">Tools</h3>
+            <p class="text-sm text-gray-400">Git, JIRA, Docker, VS Code, Eclipse, IntelliJ</p>
+          </div>
+          <div class="p-6 bg-gray-700/50 rounded-xl hover:bg-gray-700 transition-colors">
+            <h3 class="font-semibold mb-2">Concepts</h3>
+            <p class="text-sm text-gray-400">Agile, REST APIs, CI/CD, Microservices, Testing</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-20">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-12 text-center uppercase">Recent Projects</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="group relative overflow-hidden rounded-xl">
+            <img 
+              src="https://media.licdn.com/dms/image/v2/D4D12AQGnA-5Vkk48eA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1698320483594?e=2147483647&v=beta&t=g924VOpzUgBry3vE_U98xC-RsV8y0AvkuJMSC_M4ScM"
+              alt="E-commerce Website"
+              class="w-full h-64 object-cover"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+              <div class="absolute bottom-0 p-6">
+                <h3 class="text-xl font-bold mb-2">E-commerce Website</h3>
+                <p class="text-gray-300 mb-4">React.js, Tailwind CSS, AI Chatbot, Azure deployment</p>
+                <a href="https://github.com/ashevkarIIT/e-commerce" class="flex items-center gap-2 text-blue-400 hover:text-blue-300">
+                  View Project <i data-lucide="external-link" class="w-4 h-4"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="group relative overflow-hidden rounded-xl">
+            <img 
+              src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=800&q=80"
+              alt="Hospital Management System"
+              class="w-full h-64 object-cover"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+              <div class="absolute bottom-0 p-6">
+                <h3 class="text-xl font-bold mb-2">Hospital Management System</h3>
+                <p class="text-gray-300 mb-4">Java, JSF, MySQL, Payara Server</p>
+                <a href="https://github.com/ashevkar/HospitalManagement" class="flex items-center gap-2 text-blue-400 hover:text-blue-300">
+                  View Project <i data-lucide="external-link" class="w-4 h-4"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="group relative overflow-hidden rounded-xl">
+            <img 
+              src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=800&q=80"
+              alt="Restaurant Discovery Platform"
+              class="w-full h-64 object-cover"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+              <div class="absolute bottom-0 p-6">
+                <h3 class="text-xl font-bold mb-2">Restaurant Discovery Platform</h3>
+                <p class="text-gray-300 mb-4">Java, JDBC, OOP, Multi-role system</p>
+                <a href="https://github.com/ashevkar/Restaurant-Discovery" class="flex items-center gap-2 text-blue-400 hover:text-blue-300">
+                  View Project <i data-lucide="external-link" class="w-4 h-4"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-12">
+      <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+          <p class="text-gray-400">© 2024 Aishwarya Shevkar. All rights reserved.</p>
+          <div class="flex gap-6">
+            <a href="https://github.com/ashevkar" class="text-gray-400 hover:text-white transition-colors">
+                <i data-lucide="github" class="w-6 h-6"></i>
+              </a>
+  
+            <a href="https://linkedin.com/in/aishwarya-shevkar" target="_blank" class="text-gray-400 hover:text-white transition-colors">
+              <i data-lucide="linkedin" class="w-6 h-6"></i>
+            </a>
+            <a href="mailto:ashevkar@hawk.iit.edu" class="text-gray-400 hover:text-white transition-colors">
+              <i data-lucide="mail" class="w-6 h-6"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Initialize Lucide icons
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
